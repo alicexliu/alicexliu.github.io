@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Mini Minecraft",
+        "imageSrc": "projects/minecraft.png",
+        "description": "Developed a minecraft inspired game",
+        "skills": ["C++", "OpenGL", "GLSL"]
+    },
+    {
+        "title": "VR Fluoroscopy Simulator",
+        "imageSrc": "projects/fluoro.png",
+        "description": "Created a VR fluoroscopy simulation to train medical students",
+        "skills": ["Unity3D", "C#", "Blender"]
+    },
+    {
+        "title": "Lost@Penn",
+        "imageSrc": "projects/lost@penn.png",
+        "description": "Digital lost-and-found platform for Penn's campus",
+        "skills": ["React.js", "Tailwind", "Figma"]
+    },
+    {
+        "title": "Mini Maya",
+        "imageSrc": "projects/minimaya.png",
+        "description": "Mesh editor that recreates the basic functions of Autodesk Maya",
+        "skills": ["C++", "OpenGL", "GLSL"]
+    },
+    {
+        "title": "GLSL Shaders",
+        "imageSrc": "projects/shaders.png",
+        "description": "A variety of surface and post-process GLSL Shaders",
+        "skills": ["C++", "OpenGL", "GLSL"]
+    }
+    
+]
