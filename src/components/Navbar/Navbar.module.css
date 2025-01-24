@@ -33,6 +33,12 @@
     font-size: 22.5px;
     color: var(--color-text);
     text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menuItems a:hover {
+    color: var(--color-text-hover);
+    
 }
 
 .menuBtn {

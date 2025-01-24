@@ -1,9 +1,13 @@
 :root {
     /* Colors */
     --color-text: #232020;
+    --color-text-hover: #6d6271;
+
     --color-primary: #dee3fc;
+    --color-primary-hover: #cbd1f1;
+
     --color-secondary: #19376d;
-    --color-dark: #0b2447;
+    --color-dark: #dcdcdc;
     --color-bg: #ffffff;
 
     /* Fonts */

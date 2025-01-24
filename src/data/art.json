@@ -1,0 +1,26 @@
+[
+    {
+        "title": "title (year)",
+        "category": "digital",
+        "imageSrc": "art/artwork.png",
+        "description": ""
+    },
+    {
+        "title": "",
+        "category": "animation",
+        "imageSrc": "art/artwork.png",
+        "description": ""
+    },
+    {
+        "title": "",
+        "category": "traditional",
+        "imageSrc": "art/artwork.png",
+        "description": ""
+    },
+    {
+        "title": "",
+        "category": "3D",
+        "imageSrc": "art/artwork.png",
+        "description": ""
+    }
+]

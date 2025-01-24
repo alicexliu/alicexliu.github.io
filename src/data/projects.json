@@ -28,6 +28,12 @@
         "imageSrc": "projects/shaders.png",
         "description": "A variety of surface and post-process GLSL Shaders",
         "skills": ["C++", "OpenGL", "GLSL"]
+    },
+    {
+        "title": "Scene Graph",
+        "imageSrc": "projects/scenegraph.png",
+        "description": "Constucted a scene graph in Qt using nodes",
+        "skills": ["C++", "OpenGL", "Qt GUI"]
     }
     
 ]

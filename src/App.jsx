@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Hero } from './components/Hero/Hero'
 import { Projects } from './components/Projects/Projects'
 import { Art } from './components/Art/Art'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Projects />
       <Art />
+      <Footer />
     </div>
   )
 }

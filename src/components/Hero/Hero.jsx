@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from "./Hero.module.css"
+import { getImageUrl } from "../../utils";
 import heroImage from "../../../assets/hero/heroImage.png"
 
 export const Hero = () => {
@@ -15,7 +16,19 @@ export const Hero = () => {
             <p className={styles.description}>
                 I'm interested in software engineering, game development, and animation!
             </p>
-            <a href="mailto:alicepopilliu@gmail.com" className={styles.contactBtn}>Contact Me</a>
+            <div className={styles.buttonContainer}>
+              <a href="mailto:alicepopilliu@gmail.com" className={styles.iconButton}>
+                <img src={getImageUrl("hero/github.png")} alt="Mail" className={styles.icon} />
+              </a>
+
+              <a href="https://github.com/alicexliu" target="_blank" rel="noopener noreferrer" className={styles.iconButton}>
+                <img src={getImageUrl("hero/github.png")} alt="GitHub" className={styles.icon} />
+              </a>
+
+              <a href="https://linkedin.com/in/aliceliuu" target="_blank" rel="noopener noreferrer" className={styles.iconButton}>
+                <img src={getImageUrl("hero/linkedin.png")} alt="LinkedIn" className={styles.icon} />
+              </a>
+            </div>
         </div>
         <img src={heroImage} alt="Hero image of me" className={styles.heroImg}/>
     </section>
