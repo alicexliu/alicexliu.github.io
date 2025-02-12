@@ -2,7 +2,8 @@ import React from 'react'
 
 import styles from "./Hero.module.css"
 import { getImageUrl } from "../../utils";
-import heroImage from "../../../assets/hero/heroImage.png"
+
+<section id="about">...</section>
 
 export const Hero = () => {
   return (
@@ -14,11 +15,11 @@ export const Hero = () => {
                 at the University of Pennsylvania. 
             </p>
             <p className={styles.description}>
-                I'm interested in software engineering, game development, and animation!
+                I'm interested in software engineering, computer graphics, game development, and animation!
             </p>
             <div className={styles.buttonContainer}>
               <a href="mailto:alicepopilliu@gmail.com" className={styles.iconButton}>
-                <img src={getImageUrl("hero/github.png")} alt="Mail" className={styles.icon} />
+                <img src={getImageUrl("hero/mail.png")} alt="Mail" className={styles.icon} />
               </a>
 
               <a href="https://github.com/alicexliu" target="_blank" rel="noopener noreferrer" className={styles.iconButton}>
@@ -30,7 +31,7 @@ export const Hero = () => {
               </a>
             </div>
         </div>
-        <img src={heroImage} alt="Hero image of me" className={styles.heroImg}/>
+        <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg}/>
     </section>
   )
 }

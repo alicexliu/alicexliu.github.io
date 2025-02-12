@@ -1,10 +1,17 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false); // Close mobile menu after clicking
+    }
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -26,15 +33,23 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={(e) => {
+              e.preventDefault();
+              handleScroll("about");
+            }}>About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={(e) => {
+              e.preventDefault();
+              handleScroll("projects");
+            }}>Projects</a>
           </li>
           <li>
-            <a href="#art">Art</a>
+            <a href="#art" onClick={(e) => {
+              e.preventDefault();
+              handleScroll("art");
+            }}>Art</a>
           </li>
-          
         </ul>
       </div>
     </nav>

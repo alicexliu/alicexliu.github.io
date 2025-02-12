@@ -16,6 +16,6 @@ export const Projects = () => {
                     );
                 })}
             </div>
-        </section>
+      </section>
     );
 };

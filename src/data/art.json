@@ -1,25 +1,25 @@
 [
     {
-        "title": "title (year)",
+        "title": "3D office environment (2024), reference: Control ",
+        "category": "3D",
+        "imageSrc": "art/environment.jpg",
+        "description": ""
+    },
+    {
+        "title": "yelrah (2024)",
         "category": "digital",
-        "imageSrc": "art/artwork.png",
+        "imageSrc": "art/yelrah.PNG",
+        "description": ""
+    },
+    {
+        "title": "Glass Still Life (2022)",
+        "category": "traditional",
+        "imageSrc": "art/bottleStillLife.PNG",
         "description": ""
     },
     {
         "title": "",
         "category": "animation",
-        "imageSrc": "art/artwork.png",
-        "description": ""
-    },
-    {
-        "title": "",
-        "category": "traditional",
-        "imageSrc": "art/artwork.png",
-        "description": ""
-    },
-    {
-        "title": "",
-        "category": "3D",
         "imageSrc": "art/artwork.png",
         "description": ""
     }

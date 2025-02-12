@@ -2,12 +2,12 @@
     {
         "title": "Mini Minecraft",
         "imageSrc": "projects/minecraft.png",
-        "description": "Developed a minecraft inspired game",
+        "description": "Developed a playable minecraft inspired game from scratch in a team of 3",
         "skills": ["C++", "OpenGL", "GLSL"]
     },
     {
         "title": "VR Fluoroscopy Simulator",
-        "imageSrc": "projects/fluoro.png",
+        "imageSrc": "projects/fluoro2.png",
         "description": "Created a VR fluoroscopy simulation to train medical students",
         "skills": ["Unity3D", "C#", "Blender"]
     },
@@ -32,8 +32,14 @@
     {
         "title": "Scene Graph",
         "imageSrc": "projects/scenegraph.png",
-        "description": "Constucted a scene graph in Qt using nodes",
+        "description": "Constucted a scene graph of the character Miffy in Qt using nodes",
         "skills": ["C++", "OpenGL", "Qt GUI"]
+    },
+    {
+        "title": "Cat 2048",
+        "imageSrc": "projects/cat2048.png",
+        "description": "2048 game with hand drawn cat graphics",
+        "skills": ["Java", "Procreate"]
     }
     
 ]
