@@ -1,7 +1,7 @@
 [
     {
         "title": "Mini Minecraft",
-        "imageSrc": "projects/minecraft.png",
+        "imageSrc": "projects/minecraft1.png",
         "description": "Developed a playable minecraft inspired game from scratch in a team of 3",
         "skills": ["C++", "OpenGL", "GLSL"]
     },
@@ -18,6 +18,12 @@
         "skills": ["React.js", "Tailwind", "Figma"]
     },
     {
+        "title": "Monte Carlo Path Tracer",
+        "imageSrc": "projects/montecarlo.png",
+        "description": "Monte Carlo Path Tracer ",
+        "skills": ["OpenGL", "GLSL"]
+    },
+    {
         "title": "Mini Maya",
         "imageSrc": "projects/minimaya.png",
         "description": "Mesh editor that recreates the basic functions of Autodesk Maya",
@@ -31,7 +37,7 @@
     },
     {
         "title": "Scene Graph",
-        "imageSrc": "projects/scenegraph.png",
+        "imageSrc": "projects/scenegraph1.png",
         "description": "Constucted a scene graph of the character Miffy in Qt using nodes",
         "skills": ["C++", "OpenGL", "Qt GUI"]
     },
