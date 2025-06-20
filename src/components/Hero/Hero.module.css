@@ -6,9 +6,9 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    z-index: 1;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content {
@@ -49,9 +49,9 @@
 .buttonContainer {
     display: flex;
     gap: 15px;
-  }
-  
-  .iconButton {
+}
+
+.iconButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,21 +61,21 @@
     width: 57.5px; 
     height: 57.5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .iconButton:hover {
+}
+
+.iconButton:hover {
     background-color: var(--color-primary-hover); 
     transform: translateY(-1.5px); 
-  }
-  
-  .iconButton:active {
+}
+
+.iconButton:active {
     transform: translateY(0);
-  }
-  
-  .icon {
+}
+
+.icon {
     width: 33px;
     height: 33px;
-  }
+}
 
 @media screen and (max-width: 830px) {
     .container {

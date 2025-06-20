@@ -6,6 +6,12 @@
         "description": ""
     },
     {
+        "title": "fortune cat (2024)",
+        "category": "3D",
+        "imageSrc": "art/fortuneCat.png",
+        "description": ""
+    },
+    {
         "title": "yelrah (2024)",
         "category": "digital",
         "imageSrc": "art/yelrah.PNG",
@@ -15,6 +21,60 @@
         "title": "glass still life (2022)",
         "category": "traditional",
         "imageSrc": "art/bottleStillLife.PNG",
+        "description": ""
+    },
+    {
+        "title": "floating tears (2022)",
+        "category": "digital",
+        "imageSrc": "art/floating.png",
+        "description": ""
+    },
+    {
+        "title": "sunset (2023)",
+        "category": "digital",
+        "imageSrc": "art/pinkYelrah.png",
+        "description": ""
+    },
+    {
+        "title": "hands (2022)",
+        "category": "digital",
+        "imageSrc": "art/hands.png",
+        "description": ""
+    },
+    {
+        "title": "space girl (2021)",
+        "category": "digital",
+        "imageSrc": "art/spaceGirl.png",
+        "description": ""
+    },
+    {
+        "title": "gentle skelly (2022)",
+        "category": "traditional",
+        "imageSrc": "art/gentleSkelly.png",
+        "description": ""
+    },
+    {
+        "title": "bloody (2024)",
+        "category": "digital",
+        "imageSrc": "art/bloody.png",
+        "description": ""
+    },
+    {
+        "title": "xelor (2023)",
+        "category": "digital",
+        "imageSrc": "art/edgyXelor.png",
+        "description": ""
+    },
+    {
+        "title": "elf (2020)",
+        "category": "digital",
+        "imageSrc": "art/elf.png",
+        "description": ""
+    },
+    {
+        "title": "bucket and peppers (2019)",
+        "category": "traditional",
+        "imageSrc": "art/bucket.png",
         "description": ""
     },
     {

@@ -3,19 +3,16 @@ import React from 'react'
 import styles from "./Hero.module.css"
 import { getImageUrl } from "../../utils";
 
-<section id="about">...</section>
-
 export const Hero = () => {
   return (
     <section className={styles.container}> 
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Alice!</h1>
             <p className={styles.description}>
-                I'm a sophomore studying Digital Media Design, an interdisiplinary program that combines computer science and art
-                at the University of Pennsylvania. 
+                I'm a junior at the University of Pennsylvania studying Digital Media Design, an interdisiplinary program that combines computer science and art. 
             </p>
             <p className={styles.description}>
-                I'm interested in software engineering, computer graphics, game development, and animation!
+                I'm interested in computer graphics, game development, software engineering, and animation!
             </p>
             <div className={styles.buttonContainer}>
               <a href="mailto:alicepopilliu@gmail.com" className={styles.iconButton}>

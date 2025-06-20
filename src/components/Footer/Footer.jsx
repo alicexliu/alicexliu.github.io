@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer className={styles.container}>
       <div className={styles.content}>
         <p>© 2025 Alice Liu</p>
-        <p>Made with <span className={styles.heart}>♥</span> by Alice Liu</p>
+        <p>Made with <span className={styles.heart}>♥</span> by Alice</p>
       </div>
     </footer>
   );

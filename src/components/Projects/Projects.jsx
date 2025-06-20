@@ -24,11 +24,9 @@ export const Projects = () => {
             {/* Projects List */}
             <h2 className={styles.title}>Projects</h2>
             <div className={styles.projects}> 
-                {projects.map((project, id) => {
-                    return (
-                        <ProjectCard key={id} project={project}/>
-                    );
-                })}
+                {projects.map((project) => (
+                    <ProjectCard key={project.slug} project={project} />
+                ))}
             </div>
       </section>
     );

@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .container {
-    margin-top: 60px;
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;

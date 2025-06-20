@@ -1,28 +1,33 @@
 @import "../../vars.css";
 
 .container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background: var(--color-bg);
-    box-shadow: 0px 0px 5px 0px var(--color-primary);
-    margin-bottom: 4px;
-    padding: 20px 24px;
-    max-width: 364px;
-    border: 3px solid var(--color-primary);
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  /* background: var(--color-bg); */
+  /* box-shadow: 0px 0px 6px 1.5px var(--color-primary); */
+  background: var(--color-primary-light);
+  margin-bottom: 4px;
+  padding: 0; /* no side padding */
+  max-width: 364px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.content {
+  padding: 0 20px 20px 20px; /* apply padding only to text content */
 }
 
 .container:hover {
-    /* background-color: var(--color-primary);  */
-    transform: translateY(-3px);
-  }
+    transform: scale(1.025);
+}
 
 .image {
-    margin-bottom: 26px;
-    width: 310px;
-    height: 220px;
-    border-radius: 10px;
+    width: 364px;                  /* Fill container's width */
+    height: 230px;
+    object-fit: cover;            /* Keeps aspect ratio and fills box */
+    border-radius: 8px 8px 0 0; /* Only round top corners */
+    margin: 0;                    /* Remove default margin */
+    margin-bottom: 10px;
 }
 
 .title {
@@ -52,4 +57,10 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 2px 12px;
+}
+
+.link {
+  text-decoration: none;  /* removes underline */
+  color: inherit;         /* inherits the surrounding text color */
+  display: block;         /* makes the link act like a block element */
 }
