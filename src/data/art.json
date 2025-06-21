@@ -26,7 +26,7 @@
     {
         "title": "floating tears (2022)",
         "category": "digital",
-        "imageSrc": "art/floating.png",
+        "imageSrc": "art/floatingTears.jpeg",
         "description": ""
     },
     {
@@ -44,7 +44,7 @@
     {
         "title": "space girl (2021)",
         "category": "digital",
-        "imageSrc": "art/spaceGirl.png",
+        "imageSrc": "art/spaceGirl.jpeg",
         "description": ""
     },
     {
@@ -74,13 +74,25 @@
     {
         "title": "bucket and peppers (2019)",
         "category": "traditional",
-        "imageSrc": "art/bucket.png",
+        "imageSrc": "art/bucketPeppers.jpeg",
         "description": ""
     },
     {
-        "title": "",
+        "title": "eye (2022)",
         "category": "animation",
-        "imageSrc": "art/artwork.png",
+        "imageSrc": "art/eyeAnimation.MP4",
+        "description": ""
+    },
+    {
+        "title": "mystery man (2024)",
+        "category": "digital",
+        "imageSrc": "art/capeGuy.jpeg",
+        "description": ""
+    },
+    {
+        "title": "self portrait (2023)",
+        "category": "traditional",
+        "imageSrc": "art/selfPortrait.jpeg",
         "description": ""
     }
 ]

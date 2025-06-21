@@ -33,12 +33,14 @@
 .title {
     font-size: 25px;
     font-weight: 700;
+    color: var(--color-text);
 }
 
 .description {
     margin-top: 6px;
     font-size: 20px;
     font-weight: 400;
+    color: var(--color-text);
 }
 
 .skills {
@@ -49,6 +51,7 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    color: var(--color-text);
 }
 
 .skill {

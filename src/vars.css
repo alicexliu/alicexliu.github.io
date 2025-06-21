@@ -1,17 +1,29 @@
+/* Default Light Theme */
 :root {
-    /* Colors */
-    --color-text: #232020;
-    --color-text-hover: #6d6271;
+  --color-text: #232020;
+  --color-text-hover: #6d6271;
 
-    --color-primary-light: #f1f4ff;
-    --color-primary: #dee3fc;
-    --color-primary-hover: #cbd1f1;
-    
+  --color-primary-light: #f1f4ff;
+  --color-primary: #dee3fc;
+  --color-primary-hover: #cbd1f1;
 
-    --color-secondary: #19376d;
-    --color-dark: #dcdcdc;
-    --color-bg: #ffffff;
+  --color-secondary: #19376d;
+  --color-dark: #dcdcdc;
+  --color-bg: #ffffff;
 
-    /* Fonts */
-    --font-roboto: "Roboto";
+  --font-roboto: "Roboto";
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+  --color-text: #ffffff;
+  --color-text-hover: #b0a6b9;
+
+  --color-primary-light: #343a50;
+  --color-primary: #1c1f30;
+  --color-primary-hover: #2e3250;
+  
+  --color-secondary: #a6c8ff;
+  --color-dark: #181818;
+  --color-bg: #121212;
 }

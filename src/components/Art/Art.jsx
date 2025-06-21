@@ -16,7 +16,7 @@ export const Art = () => {
 
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Artworks</h2>
+      <h2 className={styles.title}>Artwork</h2>
 
       {/* Category Filters */}
       <div className={styles.categoryFilters}>

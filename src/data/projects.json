@@ -4,63 +4,72 @@
         "slug": "mini-minecraft",
         "imageSrc": "projects/minecraft1.png",
         "description": "3D voxel game engine created in a team of 3",
-        "skills": ["C++", "OpenGL", "GLSL"]
+        "skills": ["C++", "OpenGL", "GLSL"],
+        "detailComponent": "MiniMinecraftDetail"
     },
     {
         "title": "VR Fluoroscopy Simulator",
         "slug": "fluoroscopy-simulator",
         "imageSrc": "projects/fluoro2.png",
         "description": "VR fluoroscopy simulation to train medical students",
-        "skills": ["Unity3D", "C#", "Blender"]
+        "skills": ["Unity3D", "C#", "Blender"],
+        "detailComponent": "FluoroscopyDetail"
     },
     {
         "title": "Monte Carlo Path Tracer",
         "slug": "monte-carlo-path-tracer",
         "imageSrc": "projects/montecarlo.png",
         "description": "Monte Carlo Path Tracer ",
-        "skills": ["OpenGL", "GLSL"]
+        "skills": ["OpenGL", "GLSL"],
+        "detailComponent": "PathTracerDetail"
     },
     {
         "title": "Lost@Penn",
         "slug": "lost@penn",
         "imageSrc": "projects/lost@penn.png",
         "description": "Digital lost-and-found platform for Penn's campus",
-        "skills": ["React.js", "Tailwind", "Figma"]
+        "skills": ["React.js", "Tailwind", "Figma"],
+        "detailComponent": "LostAtPennDetail"
     },
     {
         "title": "Maya Outliner Plug-in",
         "slug": "maya-plug-in",
         "imageSrc": "projects/mayaOutliner.png",
         "description": "Maya plug-in that allows users to easily color and rename objects",
-        "skills": ["Python", "maya.cmds"]
+        "skills": ["Python", "maya.cmds"],
+        "detailComponent": "MayaOutlinerDetail"
     },
     {
         "title": "Mini Maya",
         "slug": "mini-maya",
         "imageSrc": "projects/minimaya.png",
         "description": "Mesh editor that recreates the basic functions of Autodesk Maya",
-        "skills": ["C++", "OpenGL", "GLSL"]
+        "skills": ["C++", "OpenGL", "GLSL"],
+        "detailComponent": "MiniMayaDetail"
     },
     {
         "title": "GLSL Shaders",
         "slug": "glsl-shaders",
         "imageSrc": "projects/shaders.png",
         "description": "A variety of surface and post-process GLSL Shaders",
-        "skills": ["C++", "OpenGL", "GLSL"]
+        "skills": ["C++", "OpenGL", "GLSL"],
+        "detailComponent": "GLSLShadersDetail"
     },
     {
         "title": "Scene Graph",
         "slug": "scene-graph",
         "imageSrc": "projects/scenegraph1.png",
         "description": "Constucted a scene graph of the character Miffy in Qt using nodes",
-        "skills": ["C++", "OpenGL", "Qt GUI"]
+        "skills": ["C++", "OpenGL", "Qt GUI"],
+        "detailComponent": "SceneGraphDetail"
     },
     {
         "title": "Cat 2048",
         "slug": "cat-2048",
         "imageSrc": "projects/cat2048.png",
         "description": "2048 game with hand drawn cat graphics",
-        "skills": ["Java", "Procreate"]
+        "skills": ["Java", "Procreate"],
+        "detailComponent": "Cat2048Detail"
     }
     
 ]

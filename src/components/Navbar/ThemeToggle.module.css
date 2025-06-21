@@ -1,0 +1,12 @@
+.toggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  color: var(--color-text);
+  padding-top: 6px;
+}
+
+.toggleButton:hover {
+  color: var(--color-text-hover);
+}

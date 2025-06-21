@@ -30,7 +30,7 @@ function App() {
           />
 
           {/* Project Details */}
-          <Route path="/projects/:projectId" element={<ProjectDetail />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
         </Routes>
       </Router>
     </div>

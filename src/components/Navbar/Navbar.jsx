@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { ThemeToggle } from "./ThemeToggle.jsx";
+import { FiMenu, FiX } from "react-icons/fi"; // ⬅️ import icons
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,17 +19,10 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">Alice Liu</a>
       <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
-          style={{ width: '40px', height: '40px', objectFit: 'contain' }}
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
+        <button className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
+          {menuOpen ? <FiX size={32} /> : <FiMenu size={32} />}
+        </button>
+
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
@@ -49,6 +44,9 @@ export const Navbar = () => {
               e.preventDefault();
               handleScroll("art");
             }}>Art</a>
+          </li>
+          <li>
+            <ThemeToggle />
           </li>
         </ul>
       </div>
