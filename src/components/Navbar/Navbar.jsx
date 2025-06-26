@@ -45,7 +45,7 @@ export const Navbar = () => {
               handleScroll("art");
             }}>Art</a>
           </li>
-          <li>
+          <li className={styles.themeToggleItem}>
             <ThemeToggle />
           </li>
         </ul>
