@@ -6,6 +6,7 @@ import { Projects } from './components/Projects/Projects';
 import { Art } from './components/Art/Art';
 import { Footer } from './components/Footer/Footer';
 import { ProjectDetail } from './components/Projects/ProjectDetail';
+import ScrollToProjects from './components/Projects/ScrollToProjects';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -31,6 +32,9 @@ function App() {
 
           {/* Project Details */}
           <Route path="/projects/:slug" element={<ProjectDetail />} />
+
+          {/* New route for back button */}
+          <Route path="/back-to-projects" element={<ScrollToProjects />} />
         </Routes>
       </Router>
     </div>

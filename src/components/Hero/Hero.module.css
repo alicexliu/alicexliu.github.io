@@ -9,6 +9,7 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    /* margin-bottom: -25px; */
 }
 
 .content {
@@ -42,7 +43,7 @@
 }
 
 .heroImg {
-    width: 45%;
+    width: 40%;
     z-index: 1;
 }
 

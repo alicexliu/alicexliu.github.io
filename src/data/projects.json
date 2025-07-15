@@ -16,7 +16,7 @@
     {
         "title": "Monte Carlo Path Tracer",
         "slug": "monte-carlo-path-tracer",
-        "imageSrc": "projects/montecarlo.png",
+        "imageSrc": "projects/infinitekirby.png",
         "description": "Monte Carlo Path Tracer ",
         "skills": ["OpenGL", "GLSL"]
     },
@@ -30,21 +30,21 @@
     {
         "title": "Maya Outliner Plug-in",
         "slug": "maya-plug-in",
-        "imageSrc": "projects/mayaOutliner.png",
+        "imageSrc": "projects/mayaplugin2.png",
         "description": "Maya plug-in that allows users to easily color and rename objects",
         "skills": ["Python", "maya.cmds"]
     },
     {
         "title": "Mini Maya",
         "slug": "mini-maya",
-        "imageSrc": "projects/minimaya.png",
+        "imageSrc": "projects/minimayacube2.png",
         "description": "Mesh editor that recreates the basic functions of Autodesk Maya",
         "skills": ["C++", "OpenGL", "GLSL"]
     },
     {
         "title": "GLSL Shaders",
         "slug": "glsl-shaders",
-        "imageSrc": "projects/shaders.png",
+        "imageSrc": "projects/tiledmario.png",
         "description": "A variety of surface and post-process GLSL Shaders",
         "skills": ["C++", "OpenGL", "GLSL"]
     },
@@ -58,7 +58,7 @@
     {
         "title": "Cat 2048",
         "slug": "cat-2048",
-        "imageSrc": "projects/cat2048.png",
+        "imageSrc": "projects/cat20482.png",
         "description": "2048 game with hand drawn cat graphics",
         "skills": ["Java", "Procreate"]
     }

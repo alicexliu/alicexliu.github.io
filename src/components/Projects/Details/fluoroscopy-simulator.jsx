@@ -6,7 +6,7 @@ import { getImageUrl } from "../../../utils";
 export const FluoroscopyDetail = () => {
   return (
     <>
-      <p>
+      <p className={styles.description}>
         In this project, my team and I built a 3D Minecraft-inspired engine from scratch
         in C++ using OpenGL. It includes chunked terrain generation, block editing,
         texture atlases, and real-time lighting.
