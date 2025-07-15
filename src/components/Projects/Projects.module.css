@@ -13,6 +13,11 @@
     color: var(--color-text);
 }
 
+.demoReel {
+    margin-top: 10px;
+    padding-top: 2rem;
+}
+
 .videoContainer {
     position: relative;
     width: 75%;

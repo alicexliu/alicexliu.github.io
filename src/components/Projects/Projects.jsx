@@ -8,6 +8,15 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
     return (
       <section className={styles.container}>
+           
+            {/* Projects List */}
+            <h2 className={styles.title}>Projects</h2>
+            <div className={styles.projects}> 
+                {projects.map((project) => (
+                    <ProjectCard key={project.slug} project={project} />
+                ))}
+            </div>
+
             {/* Demo Reel */}
             <div className={styles.demoReel}>
             <h2 className={styles.title}>Demo Reel</h2>
@@ -19,14 +28,6 @@ export const Projects = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
-            </div>
-           
-            {/* Projects List */}
-            <h2 className={styles.title}>Projects</h2>
-            <div className={styles.projects}> 
-                {projects.map((project) => (
-                    <ProjectCard key={project.slug} project={project} />
-                ))}
             </div>
       </section>
     );

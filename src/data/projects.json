@@ -17,7 +17,7 @@
         "title": "Monte Carlo Path Tracer",
         "slug": "monte-carlo-path-tracer",
         "imageSrc": "projects/infinitekirby.png",
-        "description": "Monte Carlo Path Tracer ",
+        "description": "Efficient offline Monte Carlo Path Tracer",
         "skills": ["OpenGL", "GLSL"]
     },
     {
@@ -25,7 +25,7 @@
         "slug": "lost@penn",
         "imageSrc": "projects/lost@penn.png",
         "description": "Digital lost-and-found platform for Penn's campus",
-        "skills": ["React.js", "Tailwind", "Figma"]
+        "skills": ["React.js", "Firebase", "Figma"]
     },
     {
         "title": "Maya Outliner Plug-in",
@@ -60,7 +60,7 @@
         "slug": "cat-2048",
         "imageSrc": "projects/cat20482.png",
         "description": "2048 game with hand drawn cat graphics",
-        "skills": ["Java", "Procreate"]
+        "skills": ["Java", "Java Swing", "Procreate"]
     }
     
 ]
