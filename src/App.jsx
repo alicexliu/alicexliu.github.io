@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import styles from './App.module.css';
 
 import { Navbar } from './components/Navbar/Navbar';
@@ -11,6 +12,10 @@ import ScrollToProjects from './components/Projects/ScrollToProjects';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }, []);
+
   return (
     <div className={styles.App}>
       <Router>

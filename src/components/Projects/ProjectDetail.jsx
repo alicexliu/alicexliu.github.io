@@ -36,7 +36,6 @@ export const ProjectDetail = () => {
         ← Back to Projects
       </Link>
       <h1 className={styles.title}>{project.title}</h1>
-      <p className={styles.description}>{project.description}</p>
       <img
         src={getImageUrl(project.imageSrc)}
         alt={project.title}

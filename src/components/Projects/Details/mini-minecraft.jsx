@@ -11,15 +11,22 @@ export const MiniMinecraftDetail = () => {
         in C++ using OpenGL. It includes chunked terrain generation, block editing,
         texture atlases, and real-time lighting.
       </p>
-      <img
+      {/* <img
         className={styles.media}
         src={getImageUrl("projects/minecraft2.png")}
         alt="Screenshot of Mini Minecraft terrain"
-      />
-      <video className={styles.media} controls>
-        <source src={getImageUrl("projects/minecraft_demo.mp4")} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      /> */}
+      <div className={styles.media}>
+        <iframe
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/kr7ze2p7Tx8"
+          title="Mini Minecraft Demo"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </>
   );
 };
