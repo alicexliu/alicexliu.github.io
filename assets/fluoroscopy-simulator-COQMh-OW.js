@@ -1,0 +1,1 @@
+import{j as e,s}from"./index-BemVX-Ax.js";const o=()=>e.jsx(e.Fragment,{children:e.jsx("p",{className:s.description,children:"As a VR Research Intern for Penn Medicine, I developed a fluoroscopy simulator for the Meta Quest 2/3."})});export{o as FluoroscopyDetail,o as default};
