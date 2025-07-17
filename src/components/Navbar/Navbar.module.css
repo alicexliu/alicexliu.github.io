@@ -19,6 +19,14 @@
   color: var(--color-text);
 }
 
+.logo {
+  width: 28px;
+  height: 28px;
+  margin-left: 12px; 
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
 .menu {
   display: flex;
   align-items: center;

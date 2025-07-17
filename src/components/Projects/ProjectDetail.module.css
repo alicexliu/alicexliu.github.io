@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 2rem;
   color: var(--color-text);
 }
 
@@ -22,6 +22,7 @@ body {
 .backButton {
   display: inline-block;
   margin-bottom: 1rem;
+  margin-top: -1rem;
   font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
@@ -48,7 +49,7 @@ body {
 .subheading {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: -0.5rem;
 }
 
 .skills {
@@ -58,7 +59,6 @@ body {
 .mediaGrid {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -66,8 +66,7 @@ body {
 .media {
   display: block;  
   margin: 0 auto;  
-  width: 100%;
-  /* max-width: 480px; */
+  width:100%;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);

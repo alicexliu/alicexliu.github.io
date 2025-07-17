@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL=/#${location.pathname}${location.search}${location.hash}">
+    <script>
+      // Optional JS fallback if meta refresh fails
+      window.location.replace('/#' + location.pathname + location.search + location.hash);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
