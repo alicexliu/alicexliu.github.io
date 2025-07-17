@@ -9,7 +9,7 @@ import { Footer } from './components/Footer/Footer';
 import { ProjectDetail } from './components/Projects/ProjectDetail';
 import ScrollToProjects from './components/Projects/ScrollToProjects';
 
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
