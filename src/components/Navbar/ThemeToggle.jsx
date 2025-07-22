@@ -5,16 +5,12 @@ import styles from "./ThemeToggle.module.css";
 export const ThemeToggle = () => {
   const [darkMode, setDarkMode] = useState(() => {
     const storedTheme = localStorage.getItem("theme");
-    return storedTheme ? storedTheme === "dark" : true;  // default to dark mode
+    if (storedTheme === "dark") return true;
+    if (storedTheme === "light") return false;
+    // default for new visitors: dark mode
+    return true;
   });
 
-  // On mount, make sure theme matches the state
-  useEffect(() => {
-    const theme = darkMode ? "dark" : "light";
-    document.documentElement.setAttribute("data-theme", theme);
-  }, []);  // run once on mount
-
-  // When darkMode changes, update localStorage and DOM
   useEffect(() => {
     const theme = darkMode ? "dark" : "light";
     document.documentElement.setAttribute("data-theme", theme);
@@ -24,7 +20,7 @@ export const ThemeToggle = () => {
   return (
     <button
       className={styles.toggleButton}
-      onClick={() => setDarkMode((prev) => !prev)}
+      onClick={() => setDarkMode(!darkMode)}
       aria-label="Toggle dark mode"
     >
       {darkMode ? <FiSun size={26} /> : <FiMoon size={26} />}

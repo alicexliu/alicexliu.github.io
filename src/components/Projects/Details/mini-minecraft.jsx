@@ -1,4 +1,3 @@
-// src/components/Projects/Details/MiniMinecraftDetail.jsx
 import React from "react";
 import styles from "../ProjectDetail.module.css";
 

@@ -28,7 +28,8 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg} />
+      {/* <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg} /> */}
+      <img src={getImageUrl("hero/kirbymecropped.PNG")} alt="Kirby drawing of me" className={styles.heroImg} />
     </section>
   );
 };

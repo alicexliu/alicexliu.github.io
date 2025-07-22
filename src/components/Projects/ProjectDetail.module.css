@@ -42,6 +42,18 @@ body {
   color: var(--color-text);
 }
 
+.bulletList {
+  font-size: 20px;
+  list-style-type: disc;
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bulletList li {
+  margin-bottom: 0.5rem;
+}
+
 .section {
   margin-bottom: 2.5rem;
 }

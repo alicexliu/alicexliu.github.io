@@ -17,7 +17,7 @@
         "title": "Monte Carlo Path Tracer",
         "slug": "monte-carlo-path-tracer",
         "imageSrc": "projects/infinitekirby.png",
-        "description": "Efficient offline Monte Carlo Path Tracer",
+        "description": "Efficient offline GPU Monte Carlo Path Tracer",
         "skills": ["OpenGL", "GLSL"]
     },
     {
@@ -30,7 +30,7 @@
     {
         "title": "Maya Outliner Plug-in",
         "slug": "maya-plug-in",
-        "imageSrc": "projects/mayaplugin2.png",
+        "imageSrc": "projects/mayaplugin3.png",
         "description": "Maya plug-in that allows users to easily color and rename objects",
         "skills": ["Python", "maya.cmds"]
     },

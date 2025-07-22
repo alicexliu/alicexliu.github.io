@@ -43,8 +43,9 @@
 }
 
 .heroImg {
-    width: 40%;
+    width: 37.5%;
     z-index: 1;
+    transform: scaleX(-1);
 }
 
 .buttonContainer {
@@ -80,7 +81,7 @@
     }
 
     .heroImg {
-        width: 70%;
+        width: 65%;
     }
 
     .content {
