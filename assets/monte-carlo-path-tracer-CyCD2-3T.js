@@ -1,1 +1,0 @@
-import{j as e,s as r}from"./index-zn7ljY-k.js";const t=()=>e.jsx(e.Fragment,{children:e.jsx("p",{className:r.description,children:"For my graduate level Advanced Rendering course (CIS 4610), I created a GPU-based Monte Carlo Path Tracer in GLSL."})});export{t as MonteCarloPathTracerDetail,t as default};
