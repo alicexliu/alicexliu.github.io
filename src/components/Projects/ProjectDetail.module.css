@@ -19,6 +19,16 @@ body {
   color: var(--color-text);
 }
 
+.description a {
+  color: var(--color-secondary); 
+  text-decoration: none;        /* optional: keep underline */
+  transition: color 0.2s ease;
+}
+
+.description a:hover {
+  color: var(--color-text-hover);  /* changes color on hover */
+}
+
 .backButton {
   display: inline-block;
   margin-bottom: 1rem;
@@ -68,6 +78,22 @@ body {
   font-size: 20px;
 }
 
+.mediaRow {
+  display: flex;
+  gap: 1rem;            /* space between images */
+  margin: 1rem 0;       /* vertical margin */
+  justify-content: center;
+  flex-wrap: wrap;      /* ensures they stack on small screens */
+}
+
+.mediaItem {
+  flex: 1;              /* both items take equal space */
+  max-width: 50%;       /* each takes about half, adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mediaGrid {
   display: flex;
   flex-wrap: wrap;
@@ -78,8 +104,15 @@ body {
 .media {
   display: block;  
   margin: 0 auto;  
-  width:100%;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 7.5px;
   object-fit: cover;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+  font-size: 20px;
+  color: var(--color-text);
+  margin-top: 0.5rem;
+  text-align: center;
 }

@@ -43,7 +43,7 @@
 }
 
 .heroImg {
-    width: 37.5%;
+    width: 37%;
     z-index: 1;
     transform: scaleX(-1);
 }
